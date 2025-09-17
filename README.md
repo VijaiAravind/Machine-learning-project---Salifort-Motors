@@ -29,8 +29,8 @@ This dataset contains 14999 rows and 10 columns:
 2. Check for missing values and duplicates,there are 3008 rows are duplicated, this is 20% of data.
 3. Check a box plot to visualize distribution of 'tenure' to detect outliers.
 4. Understanding all the variables with the correlation between variables by displaying various charts.
-**Insights from EDA**:
-   
+---
+
 
 
 
