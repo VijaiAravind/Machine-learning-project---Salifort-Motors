@@ -60,8 +60,7 @@ This dataset contains 14999 rows and 10 columns:
 1. Construct the Decision tree model and setup the cross validated grid-search to search for best parameters.
 2. Fit the Decision tree model to the training data.
 3. Find the optimal values **{'max_depth': 4, 'min_samples_leaf': 5, 'min_samples_split': 2}** and check best **AUC score of 0.969819392792457** which is stronger.
-4. All scores from grid search cv  model             precision  recall    F1        accuracy  auc
-                                   decision tree cv  0.914552   0.916949  0.915707  0.971978  0.969819
+4. All scores from grid search cv  **model:decision tree  precision:0.914552  recall:0.916949  F1:0.915707  accuracy:0.971978  auc:0.969819**
 5. Indicates strong performance metrics of decision tree.
 
 
