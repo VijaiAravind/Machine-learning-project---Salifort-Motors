@@ -56,13 +56,25 @@ This dataset contains 14999 rows and 10 columns:
 ### **Tree-based model**:
 1. First select the feature variables of (X) and isolate the outcome variable of (y).
 2. Split the data into Training,Validation and Testing sets.
-### **Decision tree**:
+#### **Decision tree**:
 1. Construct the Decision tree model and setup the cross validated grid-search to search for best parameters.
 2. Fit the Decision tree model to the training data.
 3. Find the optimal values **{'max_depth': 4, 'min_samples_leaf': 5, 'min_samples_split': 2}** and check best **AUC score of 0.969819392792457** which is stronger.
 4. All scores from grid search cv  **model:decision tree  precision:0.914552  recall:0.916949  F1:0.915707  accuracy:0.971978  auc:0.969819**
-5. Indicates strong performance metrics of decision tree.
+5. The results of decision tree have a strong performance metrics.
+#### **Random forest**:
+1. Construct the Random forest model and setup the cross validated grid-search to search for best parameters.
+2. The **AUC score** achieved by the random forest on the training set was **0.98**.
+3. Optimal values of parameters are **{'max_depth': 5,'max_features': 1.0,'max_samples': 0.7,'min_samples_leaf': 1,'min_samples_split': 4,'n_estimators': 500}**.
+4. All scores from grid search cv **model:random forest  precision:0.950023  recall:0.915617  F1:0.932467  accuracy:0.977983  auc:0.980425**.
+5. The evaluation scores of Random forest model are better than Decision tree model.
 
+---
+## **Conclusion**:
+1. The models and the feature importances extracted from the models confirm that employees at the company are overworked.
+2. Consider promoting employees who have been with the company for atleast four years, or conduct further investigation about why four-year tenured employees are so dissatisfied.
+3. High evaluation scores should not be reserved for employees who work 200+ hours per month.
+4. consider a proportionate scale for rewarding employees who contribute more/put in more effort.
 
 
 
