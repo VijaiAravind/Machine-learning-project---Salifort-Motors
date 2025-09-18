@@ -2,6 +2,7 @@
 ---
 ## **Project Overview**:
 This project performs Data cleaning, Exploratory Data Analysis, Visualizations, Feature engineering and build predictive models that can provide insights to the HR Department of the company.Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
+Code:
 
 ---
 ## **Plan Stage**:
